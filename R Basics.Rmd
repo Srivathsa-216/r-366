@@ -1,0 +1,35 @@
+---
+title: "R Basics"
+author: "Adarsh srivathsa M S"
+date: "April 21, 2024"
+output: html_document
+---
+
+Variables
+
+```{r}
+a = "Pencil"
+a
+```
+
+```{r}
+a = 21
+a
+```
+```{r}
+complex = 1 + 2i
+complex
+```
+
+```{r}
+Boolean = TRUE
+Boolean
+```
+
+
+```{r}
+class(a)
+class(complex)
+class(Boolean)
+```
+
