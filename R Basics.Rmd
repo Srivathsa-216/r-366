@@ -33,3 +33,63 @@ class(complex)
 class(Boolean)
 ```
 
+Operators in R
+
+1. Assignment Operator
+
+```{r}
+1 -> a
+a
+b = 3
+b
+c <- 4
+c
+```
+Use of these is the programmers preference there is no difference in the functionality.
+
+2. Arithmetic Operators
+
+```{r}
+n1 = 10
+n2 = 3
+
+
+n1 + n2 
+n1 - n2
+n1 * n2
+n1 / n2
+```
+Dont try to divide by zero if so, that will be stored as Inf
+
+3. Relational Operators
+
+```{r}
+n1 > n2
+n1 < n2
+n1 == n2
+n1 != n2
+#### n1 === n2 This is not present in R which usually checks both value and type or class of the variable
+```
+
+4. Logical Operators
+
+```{r}
+a = TRUE
+b = FALSE
+
+a & b
+a | b
+!a
+
+```
+
+Data Structures in R
+
+1. Vectors
+
+```{r}
+# Vectors can store only one type of Variables
+
+
+```
+
